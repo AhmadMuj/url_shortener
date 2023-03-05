@@ -1,0 +1,29 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+*.pnp.js
+
+# TypeScript related files
+*.tsbuildinfo
+
+# Output directories
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Other generated files
+coverage/
+*.env
+*.log
+*.pid
+*.lock
+
+# Config files
+.env

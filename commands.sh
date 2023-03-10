@@ -11,9 +11,11 @@ npx eslint --init
 #     "module": "commonjs",
 #     "lib": ["es2021"],
 #     "target": "es2018",
+#     "esModuleInterop": true,
 #     "strict": true
 #   },
 #   "include": ["src/**/*.ts"]
 # }
+
 
 knex init -x ts

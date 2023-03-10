@@ -1,7 +1,7 @@
 import { RouterContext } from "@koa/router";
 import createHttpError from "http-errors";
 import { Next } from "koa";
-import { validateJWT } from "../helpers/jwt";
+import { validateJWT } from "../config/jwt";
 
 export const requireAuthHandler = async (ctx: RouterContext, next: Next) => {
   const current_token = ctx.request.headers.authorization;

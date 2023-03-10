@@ -1,4 +1,4 @@
-import knex from "../helpers/knex";
+import knex from "../config/knex";
 import createHttpError from "http-errors";
 
 export const get_last_visits = async (

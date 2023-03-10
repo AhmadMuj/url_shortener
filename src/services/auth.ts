@@ -1,8 +1,8 @@
 import createHttpError from "http-errors";
-import { comparePassword, hashPassword } from "../helpers/encryption";
-import knex from "../helpers/knex";
+import { comparePassword, hashPassword } from "../config/encryption";
+import knex from "../config/knex";
 import { User } from "../types";
-import { generateUserToken } from "../helpers/jwt";
+import { generateUserToken } from "../config/jwt";
 import { RequestBody } from "../types/index";
 import { register_validation, login_validation } from "./validations";
 

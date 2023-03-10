@@ -1,4 +1,4 @@
-import knex from "../helpers/knex";
+import knex from "../config/knex";
 import { RequestBody } from "../types/index";
 import { shorten_validation, shorten_update_validation } from "./validations";
 import createHttpError from "http-errors";

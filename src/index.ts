@@ -5,7 +5,7 @@ import helmet from "koa-helmet";
 import bodyParser from "koa-bodyparser";
 import createHttpError from "http-errors";
 import router from "./routes";
-import { onDatabaseConnect } from "./helpers/knex";
+import { onDatabaseConnect } from "./config/knex";
 
 const app = new Koa();
 
